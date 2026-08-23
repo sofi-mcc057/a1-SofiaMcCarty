@@ -94,4 +94,6 @@ This project shows ...
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
 
 ## Design Achievements
+- **Created a color palette from color.adobe.com**: I used color.adove.com to create a color palette and used all the colors throughout my website.
+![Color palette used:](/color_palette.png)
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
