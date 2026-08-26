@@ -96,4 +96,4 @@ This project shows ...
 ## Design Achievements
 - **Created a color palette from color.adobe.com**: I used color.adove.com to create a color palette and used all the colors throughout my website.
 ![Color palette used:](/color_palette.png)
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the Handjet Font from Google Fonts**: I used Handjet as the font for the main heading in my website.
