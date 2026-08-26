@@ -12,13 +12,40 @@ h1 {
 h2{
     color: #31AD9E;
 }
+h3{
+    color: #FF5CB4;
+}
 
-p{
+p {
     color: #FFC2E3;
 }
 
+a{
+    color: #FF5CB4;
+}
+
 li{
+    color: #C6B5FF;   
+}
+
+th{
     color: #C6B5FF;
+    border: 1px solid #31AD9E;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 80%;
+    
+    
+}
+
+img{
+    max-width: 50%;
+    object-fit: cover;
+    object-position: center;
 }
 
 body {

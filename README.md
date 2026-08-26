@@ -92,6 +92,7 @@ This project shows ...
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Used other semantic HTML tags**: Added a table, image, link, footer, and header (h3) into my website.
 
 ## Design Achievements
 - **Created a color palette from color.adobe.com**: I used color.adove.com to create a color palette and used all the colors throughout my website.
