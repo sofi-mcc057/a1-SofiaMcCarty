@@ -12,7 +12,6 @@ const server = http.createServer( function( request,response ) {
       break
     case '/styles.css':
       sendFile(response, 'styles.css' )
-      response.setHeader("Content-Type", "text/css")
       break
     case '/dell.jpeg':
       sendFile(response, 'dell.jpeg' )
@@ -22,10 +21,14 @@ const server = http.createServer( function( request,response ) {
   }
 })
 
+
 server.listen( process.env.PORT || port )
 
 const sendFile = function( response, filename ) {
-   fs.readFile( filename, function( err, content ) {
+  if( filename === 'styles.css' ) {
+    response.setHeader( 'Content-Type', 'text/css' )
+  }
+  fs.readFile( filename, function( err, content ) {
      response.end( content, 'utf-8' )
-   })
+  })
 }
