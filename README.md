@@ -91,7 +91,7 @@ http://a1-charlieroberts.onrender.com
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added rules for all selectors, including p, li, th and td, and a. 
 - **Used other semantic HTML tags**: Added a table, image, link, footer, and header (h3) into my website.
 
 ## Design Achievements
